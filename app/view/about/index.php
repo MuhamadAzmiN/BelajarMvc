@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about me</title>
-</head>
-<body>
-    <h1>Hai nama saya <?= $data["nama"] ;?> saya bekerja sebagai <?= $data["pekerjaan"];?></h1>
-</body>
-</html>
+
+    <img class="rounded-circle shadow mt-4" src="<?= BASEURL ;?>/img/kucing.jpg.jpeg" width="230px" alt="">
+
+    <h1 class="mt-5" style="font-size:30px">Hai nama saya <?= $data["nama"] ;?> saya bekerja sebagai <?= $data["pekerjaan"];?></h1>

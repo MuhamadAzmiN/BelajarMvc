@@ -7,12 +7,11 @@ class App {
     protected $method = 'index';
     protected $params = [];
 
-
+ 
     public function __construct() {
       $url = $this->parseURL();
 
 
-  
         if(file_exists('../app/controllers/' . $url[0] . '.php')){
           $this->controller = $url[0];
           unset($url[0]);
@@ -33,6 +32,9 @@ class App {
        $this->params = array_values($url);
   
       }
+
+      // buat saat di halaman biasa / public akan munculkan ke halaman Home.php
+    
       $fileName = "Home.php";
       $trim = rtrim($fileName, '.php');
       
