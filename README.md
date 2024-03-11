@@ -1,1 +1,1 @@
-Belajar Mvc Hehehee
+<h1>Hai semuanya</h1>
